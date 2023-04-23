@@ -1,0 +1,9 @@
+﻿{
+  "bot_token": "5964045669:AAET4AM9PPokZDvZ1xqtQLeAJA03YznwpQ4",
+  "admin_user_ids": [
+    1,
+    741849888,
+    3
+  ],
+  "database_uri": "sqlite://database.sqlite3"
+}

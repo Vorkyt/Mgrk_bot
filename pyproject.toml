@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "vorkyt-tg-bot"
+version = "0.1.0"
+description = ""
+authors = ["TrixiS <oficialmorozov@gmail.com>"]
+readme = "README.md"
+packages = [{include = "vorkyt_tg_bot"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+tortoise-orm = "0.19.2"
+pydantic = {extras = ["dotenv"], version = "1.10.4"}
+aioschedule = "0.5.2"
+aiogram = {git = "https://github.com/aiogram/aiogram.git", rev = "fad45c66aa7833eab8c60d87cb2567c4012de655"}
+aerich = "0.7.1"
+typer = "0.7.0"
+openpyxl = "^3.1.2"
+aiogram3-form = "0.3.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

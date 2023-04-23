@@ -1,0 +1,26 @@
+﻿{
+  "admin": {
+    "add_button": "Добавить кнопку",
+    "remove_button": "Удалить",
+    "set_message_in_admin": "Установите сообщение в админке",
+    "enter_name": "Введите название кнопки",
+    "edit_button_text": "Изм. текст",
+    "edit_back_button_text": "Изм. текст \"назад\"",
+    "enter_text": "Введите текст",
+    "buttons_horizontal": "Кнопки строчками",
+    "buttons_vertical": "Кнопки столбиком",
+    "add_url_button": "Добавить ссылку",
+    "remove_url_button": "Удалить ссылку",
+    "enter_url": "Введите ссылку",
+    "edit_file": "Изменить файл",
+    "remove_file": "Удалить файл",
+    "enter_file": "Введите файл",
+    "edit_name": "Изм. название",
+    "enter_mailing_message_text": "Введите сообщение рассылки",
+    "mailing_started_message_text": "Рассылка началась",
+    "sent_messages_message_text_fmt": "Отправлено {sent_messages_count} сообщений"
+  },
+  "bot_started": "Бот {me.username} успешно запущен",
+  "back": "Назад",
+  "loading_message": "..."
+}

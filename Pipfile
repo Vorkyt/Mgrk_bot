@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+aiogram = {file = "https://github.com/aiogram/aiogram/archive/refs/heads/dev-3.x.zip#egg=aiogram"}
+typer = "*"
+aiosqlite = "*"
+tortoise-orm = "*"
+pydantic = "*"
+aioschedule = "*"
+openpyxl = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
